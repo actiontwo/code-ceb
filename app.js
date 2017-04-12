@@ -4,10 +4,10 @@ var port = process.env.PORT
   ? process.env.PORT
   : 1351;
 
-app.use(express.static('./'));
+app.use(express.static('www'));
 app.all('/*', function (req, res, next) {
   // Just send the index.html for other files to support HTML5Mode
-  res.sendfile('ceb1.html', {root: __dirname + './'});
+  res.sendfile('ceb1.html', {root: __dirname + '/www'});
 
 });
 
