@@ -10,19 +10,30 @@ $(document).ready(function () {
   };
   var customData = Base64.encode(JSON.stringify(drm));
   var xml =
-    '<?xml version="1.0" encoding="utf-8"?> ' +
+    '<?xml version="1.0" encoding="utf-8"?>' +
     '<PlayReadyInitiator xmlns="http://schemas.microsoft.com/DRM/2007/03/protocols/">' +
     '<LicenseAcquisition>' +
     '<Header>' +
     '<WRMHEADER xmlns="http://schemas.microsoft.com/DRM/2007/03/PlayReadyHeader" version="4.0.0.0">' +
     '<DATA>' +
+    '<PROTECTINFO>' +
+    '<KEYLEN>16</KEYLEN>' +
+    '<ALGID>AESCTR</ALGID>' +
+    '</PROTECTINFO>' +
     '<LA_URL>' + laUrl + '</LA_URL>' +
     '</DATA>' +
     '</WRMHEADER>' +
     '</Header>' +
     '<CustomData>' + customData + '</CustomData>' +
     '<Content>' + linkplay + '</Content>' +
+    '</LicenseAcquisition>' +
     '</PlayReadyInitiator>';
+  var file = 'data:text/html;charset=utf-8,' + encodeURIComponent(xml);
+  // window.open('data:text/xml;charset=utf-8,' + encodeURIComponent(xml));
+  source = document.createElement('source');
+  source.setAttribute('src', file);
+  source.setAttribute('type', 'application/vnd.ms-playready.initiator+xml');
+  player.appendChild(source);
   console.log(xml);
 
 });

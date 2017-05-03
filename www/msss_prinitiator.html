@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link href="../default.css" rel="stylesheet" type="text/css"/>
+        <title>Playready web-initiator (MSSS), HTTP (internal)</title>
+    </head>
+    <body id="abrdrm-test">
+        <h1><script type="text/javascript">document.write(document.title);</script></h1>
+        <hr>
+        <!-- STEPS -->
+        <b><p>Complete the following steps:</p></b>
+        <ol>
+            <li>Play movie below</li>
+			        
+        </ol>
+        <!-- TEST PART -->
+	<p>Video files in HTML5 video tag, type defined application/vnd.ms-playready.initiator+xml, no dimensions defined; src: http://dcp.otvs.tv/static/resources/drm/pr_initiator_msss.xml<br>
+
+		<video id="video" controls>
+		<source src="http://dcp.otvs.tv/static/resources/drm/pr_initiator_msss.xml" type="application/vnd.ms-playready.initiator+xml">
+		</video>
+	<br>
+	<br>
+	<input id="play" value="Play" onclick="document.getElementById('video').play()" value="Play" type="button"> |
+        <input id="pause" value="Pause" onclick="document.getElementById('video').pause()" value="Pause" type="button">
+		
+		 <div id="result"></div>
+        <!-- EXPECTED RESULTS -->
+        <b><p>Expected results:</p></b>
+        <ul>
+			<li>Movie starts after reasonable amount of time</li>
+			<li>Movie can be paused and resumed</li>
+         </ul>
+        <hr>
+		<div class="admin"><a href="javascript:window.location.reload()">Reload page</a> | <a href="javascript:history.back()">History back</a></div>
+        <p>Last modified on: <script type="text/javascript">document.write(document.lastModified);</script><br>
+        Author: <a href="mailto:jgladykowski@opera.com">dhernik@opera.com</a>
+    </body>
+</html>
