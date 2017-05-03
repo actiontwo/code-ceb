@@ -1,13 +1,16 @@
 $(document).ready(function () {
   var player = document.getElementById('player');
-  var linkplay = 'http://a01-fcdn.fimplus.io/ef9afdb3-dcee-41ee-b947-667b53fac4a5/ark-8f7/6/0c003b2ac6aca164f0964b579168a8f7/smooth_plrd.ism/Manifest-plrd-web-auto';
+  var linkplay = 'http://a03-fcdn.fimplus.io/ef9afdb3-dcee-41ee-b947-667b53fac4a5/87dbbfd9-2fba-11e7-9ff7-0242ac110009/ark-18a/5/275737e05d5fe8a2cfcad4a0d7a0318a/smooth_plrd.ism/Manifest-plrd-web-auto';
   var laUrl = 'https://lic.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx';
   var drm = {
     userId: "ef9afdb3-dcee-41ee-b947-667b53fac4a5",
-    sessionId: "production_a9ca05eb-07c5-11e7-b944-0242ac11000e",
+    sessionId: "production_87dbbfd9-2fba-11e7-9ff7-0242ac110009",
     merchant: 'fimplus',
-    assetId: "60412eb4-8c5d-43ea-a983-944f019db812"
+    assetId: "aa6cc057-32a3-48d2-b061-1324435e27da"
   };
+  player.onloadedmetadata = function(){
+    console.log('onload')
+  }
   var customData = Base64.encode(JSON.stringify(drm));
   var xml =
     '<?xml version="1.0" encoding="utf-8"?>' +
