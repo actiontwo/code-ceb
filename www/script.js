@@ -34,6 +34,7 @@ $(document).ready(function () {
   var file = 'data:text/xml;charset=utf-8,' + encodeURIComponent(xml);
   // window.open('data:text/xml;charset=utf-8,' + encodeURIComponent(xml));
   source = document.createElement('source');
+  file = 'http://dev.fimplus.io:1351/dataurl.xml';
   source.setAttribute('src', file);
   source.setAttribute('type', 'application/vnd.ms-playready.initiator+xml');
   player.appendChild(source);
