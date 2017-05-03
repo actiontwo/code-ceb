@@ -28,12 +28,11 @@ $(document).ready(function () {
     '<Content>' + linkplay + '</Content>' +
     '</LicenseAcquisition>' +
     '</PlayReadyInitiator>';
-  var file = 'data:text/html;charset=utf-8,' + encodeURIComponent(xml);
+  var file = 'data:text/xml;charset=utf-8,' + encodeURIComponent(xml);
   // window.open('data:text/xml;charset=utf-8,' + encodeURIComponent(xml));
   source = document.createElement('source');
   source.setAttribute('src', file);
   source.setAttribute('type', 'application/vnd.ms-playready.initiator+xml');
   player.appendChild(source);
   console.log(xml);
-
 });
