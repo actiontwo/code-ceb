@@ -1,17 +1,18 @@
 $(document).ready(function () {
   var player = document.getElementById('player');
-  var linkplay = 'http://a03-fcdn.fimplus.io/ef9afdb3-dcee-41ee-b947-667b53fac4a5/87dbbfd9-2fba-11e7-9ff7-0242ac110009/ark-18a/5/275737e05d5fe8a2cfcad4a0d7a0318a/smooth_plrd.ism/Manifest-plrd-web-auto';
-  var laUrl = 'https://lic.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx';
+  var linkplay = 'http://staging-fcdn.fimplus.io/1acd59e1-72ea-4589-9fe3-242b56d57d95/dev-ark-6c3/7/b4315af087e191e9dd841de962ad26c3/smooth_plrd.ism/Manifest-plrd-web-auto';
+  var laUrl = 'https://lic.staging.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx';
   var drm = {
     userId: "ef9afdb3-dcee-41ee-b947-667b53fac4a5",
     sessionId: "production_87dbbfd9-2fba-11e7-9ff7-0242ac110009",
     merchant: 'fimplus',
     assetId: "aa6cc057-32a3-48d2-b061-1324435e27da"
   };
-  player.onloadedmetadata = function(){
+  player.onloadedmetadata = function () {
     console.log('onload')
   }
-  var customData = Base64.encode(JSON.stringify(drm));
+  var kid = 'SVFyRVlSiFW1A+V4treAcA==';
+  var customData = 'ew0KICAgICJ1c2VySWQiOiAicmVudGFsMSIsDQogICAgInNlc3Npb25JZCI6ICJ0ZXN0IiwNCiAgICAibWVyY2hhbnQiOiAiZmltcGx1cyINCn0NCg==';// Base64.encode(JSON.stringify(drm));
   var xml =
     '<?xml version="1.0" encoding="utf-8"?>' +
     '<PlayReadyInitiator xmlns="http://schemas.microsoft.com/DRM/2007/03/protocols/">' +
@@ -24,6 +25,7 @@ $(document).ready(function () {
     '<ALGID>AESCTR</ALGID>' +
     '</PROTECTINFO>' +
     '<LA_URL>' + laUrl + '</LA_URL>' +
+    '<KID>' + kid + '</KID>' +
     '</DATA>' +
     '</WRMHEADER>' +
     '</Header>' +
