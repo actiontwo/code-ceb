@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><PlayReadyInitiator xmlns="http://schemas.microsoft.com/DRM/2007/03/protocols/"><LicenseAcquisition><Header><WRMHEADER xmlns="http://schemas.microsoft.com/DRM/2007/03/PlayReadyHeader" version="4.0.0.0"><DATA><PROTECTINFO><KEYLEN>16</KEYLEN><ALGID>AESCTR</ALGID></PROTECTINFO><LA_URL>https://lic.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx</LA_URL></DATA></WRMHEADER></Header><CustomData>eyJ1c2VySWQiOiJlZjlhZmRiMy1kY2VlLTQxZWUtYjk0Ny02NjdiNTNmYWM0YTUiLCJzZXNzaW9uSWQiOiJwcm9kdWN0aW9uXzg3ZGJiZmQ5LTJmYmEtMTFlNy05ZmY3LTAyNDJhYzExMDAwOSIsIm1lcmNoYW50IjoiZmltcGx1cyIsImFzc2V0SWQiOiJhYTZjYzA1Ny0zMmEzLTQ4ZDItYjA2MS0xMzI0NDM1ZTI3ZGEifQ==</CustomData><Content>http://a03-fcdn.fimplus.io/ef9afdb3-dcee-41ee-b947-667b53fac4a5/87dbbfd9-2fba-11e7-9ff7-0242ac110009/ark-18a/5/275737e05d5fe8a2cfcad4a0d7a0318a/smooth_plrd.ism/Manifest-plrd-web-auto</Content></LicenseAcquisition></PlayReadyInitiator>
+<?xml version="1.0" encoding="utf-8"?>
+<PlayReadyInitiator xmlns="http://schemas.microsoft.com/DRM/2007/03/protocols/">
+    <LicenseAcquisition>
+        <Header>
+            <WRMHEADER xmlns="http://schemas.microsoft.com/DRM/2007/03/PlayReadyHeader" version="4.0.0.0">
+                <DATA>
+                    <PROTECTINFO>
+                        <KEYLEN>16</KEYLEN>
+                        <ALGID>AESCTR</ALGID>
+                    </PROTECTINFO>
+                    <LA_URL>https://lic.staging.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx</LA_URL>
+                    <KID>SVFyRVlSiFW1A+V4treAcA==</KID>
+                </DATA>
+            </WRMHEADER>
+        </Header>
+        <CustomData>ew0KICAgICJ1c2VySWQiOiAicmVudGFsMSIsDQogICAgInNlc3Npb25JZCI6ICJ0ZXN0IiwNCiAgICAibWVyY2hhbnQiOiAiZmltcGx1cyINCn0NCg==</CustomData>
+        <Content>http://staging-fcdn.fimplus.io/1acd59e1-72ea-4589-9fe3-242b56d57d95/dev-ark…/7/b4315af087e191e9dd841de962ad26c3/smooth_plrd.ism/Manifest-plrd-web-auto</Content>
+    </LicenseAcquisition>
+</PlayReadyInitiator>
