@@ -9,6 +9,7 @@
                         <ALGID>AESCTR</ALGID>
                     </PROTECTINFO>
                     <LA_URL>https://lic.staging.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx</LA_URL>
+                    <CHECKSUM>UoLy7kt9Tf0=</CHECKSUM>
                     <KID>SVFyRVlSiFW1A+V4treAcA==</KID>
                 </DATA>
             </WRMHEADER>
