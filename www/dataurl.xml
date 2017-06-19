@@ -8,14 +8,14 @@
                         <KEYLEN>16</KEYLEN>
                         <ALGID>AESCTR</ALGID>
                     </PROTECTINFO>
-                    <LA_URL>https://lic.staging.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx</LA_URL>
-                    <KID>SVFyRVlSiFW1A+V4treAcA==</KID>
+                    <LA_URL> https://lic.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx</LA_URL>
+                    <KID>Bg5+D54U1VW1hCpntJhghQ==</KID>
                     <CHECKSUM>UoLy7kt9Tf0=</CHECKSUM>
 
                 </DATA>
             </WRMHEADER>
         </Header>
-        <CustomData>ew0KICAgICJ1c2VySWQiOiAicmVudGFsMSIsDQogICAgInNlc3Npb25JZCI6ICJ0ZXN0IiwNCiAgICAibWVyY2hhbnQiOiAiZmltcGx1cyINCn0NCg==</CustomData>
-        <Content>http://staging-fcdn.fimplus.io/1acd59e1-72ea-4589-9fe3-242b56d57d95/dev-ark-6c3/7/b4315af087e191e9dd841de962ad26c3/smooth_plrd.ism/Manifest-plrd-web-auto</Content>
+        <CustomData>ew0KICAgICJ1c2VySWQiOiAiOWRhNDJhYzUtZDdmYi00MjM1LThhOTgtOWE1YjJhOGFmNjg2IiwNCiAgICAic2Vzc2lvbklkIjogImJjMTUzZTRiLTBiZWYtNGQ2ZC05YTRkLWQxNjdlYzBmNGZlNCIsDQogICAgIm1lcmNoYW50IjogImZpbXBsdXMiLA0KICAgICJhc3NldElkIjogImM0YTdiNGMyLTExMWMtNGRkNC04MmEzLWZlMmViZTBjMjZiMCINCn0=</CustomData>
+        <Content>https://a03-fcdn.fimplus.io/9da42ac5-d7fb-4235-8a98-9a5b2a8af686/89dd04b2-54ca-11e7-9ad9-0242ac11000e/ark-8fa/4/c8d5029ec6953e42674092755eacc8fa/smooth_plrd.ism/Manifest-plrd-web-auto</Content>
     </LicenseAcquisition>
 </PlayReadyInitiator>
