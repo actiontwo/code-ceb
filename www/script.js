@@ -25,8 +25,8 @@ $(document).ready(function () {
     '<ALGID>AESCTR</ALGID>' +
     '</PROTECTINFO>' +
     '<LA_URL>' + laUrl + '</LA_URL>' +
-    '<CHECKSUM>UoLy7kt9Tf0=</CHECKSUM>' +
     '<KID>' + kid + '</KID>' +
+    '<CHECKSUM>UoLy7kt9Tf0=</CHECKSUM>' +
     '</DATA>' +
     '</WRMHEADER>' +
     '</Header>' +
