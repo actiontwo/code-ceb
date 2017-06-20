@@ -8,7 +8,7 @@
                         <KEYLEN>16</KEYLEN>
                         <ALGID>AESCTR</ALGID>
                     </PROTECTINFO>
-                    <LA_URL> https://lic.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx</LA_URL>
+                    <LA_URL>https://lic.drmtoday.com/license-proxy-headerauth/drmtoday/RightsManager.asmx</LA_URL>
                     <KID>Bg5+D54U1VW1hCpntJhghQ==</KID>
                     <CHECKSUM>DF2KlhRb9ec=</CHECKSUM>
 
@@ -16,6 +16,6 @@
             </WRMHEADER>
         </Header>
         <CustomData>ew0KICAgICJ1c2VySWQiOiAiOWRhNDJhYzUtZDdmYi00MjM1LThhOTgtOWE1YjJhOGFmNjg2IiwNCiAgICAic2Vzc2lvbklkIjogImJjMTUzZTRiLTBiZWYtNGQ2ZC05YTRkLWQxNjdlYzBmNGZlNCIsDQogICAgIm1lcmNoYW50IjogImZpbXBsdXMiLA0KICAgICJhc3NldElkIjogImM0YTdiNGMyLTExMWMtNGRkNC04MmEzLWZlMmViZTBjMjZiMCINCn0=</CustomData>
-        <Content>https://a03-fcdn.fimplus.io/9da42ac5-d7fb-4235-8a98-9a5b2a8af686/89dd04b2-54ca-11e7-9ad9-0242ac11000e/ark-8fa/4/c8d5029ec6953e42674092755eacc8fa/smooth_plrd.ism/Manifest-plrd-web-auto</Content>
+        <Content>https://a03-fcdn.fimplus.io/9da42ac5-d7fb-4235-8a98-9a5b2a8af686/89dd04b2-54ca-11e7-9ad9-0242ac11000e/ark-8fa/4/c8d5029ec6953e42674092755eacc8fa/dash_wdvn/playlist-wdvn-mobile-auto.mpd</Content>
     </LicenseAcquisition>
 </PlayReadyInitiator>
